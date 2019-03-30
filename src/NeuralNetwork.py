@@ -18,7 +18,7 @@ class NeuralNetwork:
         self.num_input = num_input
         self.num_output = num_output
         self.learning_rate = learning_rate
-        self.weights, self.`bias = [], []
+        self.weights, self.bias = [], []
         
         # init the network
         prev_size = num_input
