@@ -44,7 +44,7 @@ class NeuralNetwork:
 
 
 
-    '''ai functions'''
+    '''prediction functions'''
     def predict(self, inputs):
         '''predict a single input'''
         __, prediction = self.feed_forward(inputs)
